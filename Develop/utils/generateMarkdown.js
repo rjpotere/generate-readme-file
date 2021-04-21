@@ -17,7 +17,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  return `License: ${renderLicenseBadge(license)}`
+  return `License: \n ${renderLicenseBadge(license)}`
 }
 
 // TODO: Create a function to generate markdown for README
@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   ## Test Instructions: \n${data.tests}\n
   ## Questions:\n
   Github Profile: [${data.github}](https://github.com/${data.github}).\n
-  Email me: [${data.email}](mailto:ryan.potere@gmail.com)\n
+  Email me: [${data.email}](mailto:${data.email})\n
 `;
 }
 
