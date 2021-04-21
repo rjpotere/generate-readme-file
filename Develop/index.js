@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown= require('./utils/generateMarkdown');
+const {generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection} = require('./utils/generateMarkdown');
 const Choice = require('inquirer/lib/objects/choice');
 
 
@@ -50,14 +50,15 @@ const questions = [
   },
   {
     type: 'list',
-    name: 'badgetype',
+    name: 'licensetype',
     message: 'Choose a badge:',
-    choices:['choice a','choice b','choice c']
+    choices:['MIT','Apache','GPL']
   }
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+  const lincenseBadge = renderLicenseBadge(data.badgetype)
   const markdownCreated = generateMarkdown(data)
   fs.writeFile(fileName, markdownCreated, (err) =>
     err ? console.log(err) : console.log('Readme file created')
