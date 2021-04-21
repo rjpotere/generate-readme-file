@@ -1,21 +1,33 @@
 # Test Project 
 
-  ## Description: 
- description here 
+  ## **Table of Contents**
+  1. [licence](#license)
+  2. [Description](#description)
+  3. [Installation Instructions](#installation-instructions)
+  4. [Usage information](#usage-information)
+  5. [Contribution Guidelines](#contribution-guidelines)
+  6. [Test Instructions](#test-instructions)
+  7. [Questions?](#questions)
 
-  ## Installation Instructions:
- install instructions here 
+  ## **License:** 
+ ![photo](https://img.shields.io/badge/MIT-license-brightgreen)
 
-  ## Usage Information: 
-open source 
+  ## **Description:** 
+ test 1 
 
-  ## Contribution Guidelines:
- contribute here 
+  ## **Installation Instructions:**
+ test 2 
 
-  ## Test Instructions: 
-npm run test
+  ## **Usage Information:** 
+test 3 
 
-  ## Questions:
+  ## **Contribution Guidelines:**
+ test  
+
+  ## **Test Instructions:** 
+test 5
+
+  ## **Questions:**
 
   Github Profile: [rjpotere](https://github.com/rjpotere).
 
