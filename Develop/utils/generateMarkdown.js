@@ -40,7 +40,7 @@ function generateMarkdown(data) {
   ## **Test Instructions:** \n${data.tests}\n
   ## **Questions:**\n
   Github Profile: [${data.github}](https://github.com/${data.github}).\n
-  Email me: [${data.email}](mailto:${data.email})\n
+  Contact me by email with additional questions: [${data.email}](mailto:${data.email})\n
 `;
 }
 
