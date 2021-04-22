@@ -32,6 +32,7 @@ function generateMarkdown(data) {
   6. [Test Instructions](#test-instructions)
   7. [Questions?](#questions)\n
   ## ${renderLicenseSection(data.licensetype)}\n
+  This application is covered under license type: ${data.licensetype}\n
   ## **Description:** \n ${data.description} \n
   ## **Installation Instructions:**\n ${data.instructions} \n
   ## **Usage Information:** \n${data.usage} \n

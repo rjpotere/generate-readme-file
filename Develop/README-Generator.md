@@ -12,14 +12,15 @@
   ## **License:** 
  ![photo](https://img.shields.io/badge/MIT-license-brightgreen)
 
+  This application is covered under license type: MIT
+
   ## **Description:** 
  This program will allow the user to generate a markdown file by answering a series of prompts. Once the user answers the prompts, a markdown file is generated to include a table of contents which allows the user to navigate throught the markdown file using the table of conents. 
 
  ![photo](img/readme-gen.png)
- 
 
   ## **Installation Instructions:**
- To properly run this program, you must open the integrated terminal and run npm i inquirer. Once inquirer is installed you will be able to run this markdown generator.  
+ To properly run this program, you must open the integrated terminal and run npm i inquirer. Once inquirer is installed you will be able to run this markdown generator. 
 
  ![gif](gif/install-inquirer.gif)
 
@@ -29,7 +30,7 @@ The user will be able to efficiently write a README file by answer prompts that 
 ![gif](gif/testvideo.gif)
 
   ## **Contribution Guidelines:**
- No contribution guidelines at this time.  
+ No contribution guidelines at this time. 
 
   ## **Test Instructions:** 
 No test instructions at this time.
