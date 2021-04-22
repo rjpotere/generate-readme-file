@@ -15,7 +15,9 @@
   This application is covered under license type: MIT
 
   ## **Description:** 
- This program will allow the user to generate a markdown file by answering a series of prompts. Once the user answers the prompts, a markdown file is generated to include a table of contents which allows the user to navigate throught the markdown file using the table of conents.  
+ This program will allow the user to generate a markdown file by answering a series of prompts. Once the user answers the prompts, a markdown file is generated to include a table of contents which allows the user to navigate throught the markdown file using the table of conents. 
+ 
+ https://github.com/rjpotere/generate-readme-file
 
  ![photo](img/readme-gen.png) 
 
